@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ther_subject"
+    android:orientation="vertical"
+    android:background="@drawable/list_item_color">
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:background="@drawable/back"
+        android:onClick="back"
+        android:text="back" />
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EQUILIBRIUM"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        app:srcCompat="@drawable/eq"
+        android:layout_marginTop="8dp"
+        />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="286dp"
+        android:layout_marginTop="8dp"
+        android:text="As we have learned before about supply and demand, when you combine those two concepts, you arrive to a conclusion called the Equilibrium point.\n\n
+In economics, equilibrium point is the point where the supply curve and demand curve intersect each other. Where at this point, the market is at its most stable state, as the amount of goods supplied by producers is equal to the amount of goods demanded by consumers.
+"
+        android:textSize="19dp"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@drawable/eq2" />
+</LinearLayout>

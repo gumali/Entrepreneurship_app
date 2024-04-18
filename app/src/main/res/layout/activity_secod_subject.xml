@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Secod_subject"
+    android:orientation="vertical"
+    android:background="@drawable/list_item_color">
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:background="@drawable/back"
+        android:onClick="back"
+        android:text="back" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DEMAND"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        app:srcCompat="@drawable/dem"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="235dp"
+        android:text="
+This is the level of consumer desire for a particular product.\n
+Demand is affected by many factors, such as trends, price, and quality.\n
+High Demand --> drive up prices.\n
+Low Demand --> push down prices.\n
+Businesses often try to stimulate demand with advertising and sales promotions.
+" android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="8dp"/>
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        android:layout_marginTop="8dp"
+        app:srcCompat="@drawable/dem2" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="As price of product in the market increases, demand will decrease (inversely proportional)"
+        android:textColor="@color/white"/>
+</LinearLayout>

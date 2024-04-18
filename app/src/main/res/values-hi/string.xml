@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Assignment#1</string>
+    <string name="student_name">أسم الطالب </string>
+    <string name="school_gmail">أيميل المدرسة </string>
+    <string name="password">كلمة المرور </string>
+    <string name="remebmer_me">تذكرني </string>
+    <string name="log_in">تسجيل الدخول </string>
+    <string name="or_log_in_by">او : </string>
+    <string name="sign_in_with_facebook">تسجيل الدخول عبر الفيس بوك </string>
+    <string name="sign_in_with_gmail">تسجيل الدخول عبر الأيميل  </string>
+    <string-array name="languge">
+        <item> الانجليزية</item>
+        <item>العربية </item>
+
+
+    </string-array>
+</resources>

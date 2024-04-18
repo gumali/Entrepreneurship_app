@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Entrepreneurship</string>
+    <string name="student_name">Student Name</string>
+    <string name="school_gmail">School Gmail</string>
+    <string name="password">Password</string>
+    <string name="remebmer_me">Remebmer me</string>
+    <string name="log_in">Log in</string>
+    <string name="or_log_in_by">OR:</string>
+    <string name="sign_in_with_facebook">Sign In With Facebook</string>
+    <string name="sign_in_with_gmail">Sign In With Gmail</string>
+    <string-array name="languge">
+        <item>English</item>
+        <item>Arabic</item>
+
+
+    </string-array>
+</resources>

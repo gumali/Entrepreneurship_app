@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".seven_subject"
+    android:orientation="vertical"
+    android:background="@drawable/list_item_color">
+
+    <Button
+        android:layout_width="75dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"
+        android:background="@drawable/back"
+        android:onClick="back"
+        android:text="back" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="BCG Matrix"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        app:srcCompat="@drawable/bcg" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The BCG matrix is like a guide for figuring out which of your snacks are the top sellers and which ones might need to go. It has four parts:"
+        android:textColor="@color/white"
+
+        />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:text="1.	Stars: Your most popular snacks that everyone wants to buy. They're in high demand and keep your sales up."
+        android:textColor="#448AFF" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="2.	Question Marks: These are the new, uncertain snacks that could become popular or might not sell at all. They're risky but could pay off."
+        android:textColor="#448AFF"
+        />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="3.	Cash Cows: The dependable snacks that consistently sell without much extra effort. They're not growing much but bring in reliable money."
+        android:textColor="#448AFF"
+        />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:text="4.	Dogs: The snacks that aren't selling well and don't seem likely to start selling better anytime soon. They might need to be dropped."
+        android:textColor="#448AFF"
+        />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The strategy is to invest in Stars and Question Marks, enjoy the steady income from Cash Cows, and consider letting go of the Dogs to make room for better-selling items."
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
+        android:layout_height="212dp"
+        app:srcCompat="@drawable/bcg2"
+        android:layout_marginTop="8dp"/>
+    <Button
+        android:id="@+id/Q_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F3C0C0"
+        android:onClick="go"
+        android:text="GO to quastion page " />
+</LinearLayout>

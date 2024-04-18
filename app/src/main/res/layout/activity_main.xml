@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login_color"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="111dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/entreprencours"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <Spinner
+        android:id="@+id/spn_languge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:entries="@array/languge" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/student_name"
+        android:textColor="@color/login_textcolor"
+        />
+
+    <EditText
+        android:id="@+id/ed_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textColorHint="#4C4545"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/school_gmail"
+        android:textColor="@color/login_textcolor"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <EditText
+        android:id="@+id/ed_gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="student number @student.school name.edu "
+        android:inputType="textEmailAddress"
+        android:textColorHint="#6D3C0404" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/password"
+        android:textColor="@color/login_textcolor"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <EditText
+        android:id="@+id/ed_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColorHint="#4C4545" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/remebmer_me"
+        />
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="#807B6A"
+        android:text="@string/log_in"
+        android:onClick="log_in"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/or_log_in_by"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#ADC5DC"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <Button
+        android:id="@+id/bt_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_login_color"
+        android:drawableStart="@drawable/f"
+        android:paddingHorizontal="80dp"
+        android:text="@string/sign_in_with_facebook"
+        android:textColor="@color/login_textcolor" />
+
+    <Button
+        android:id="@+id/bt_gmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_login_color"
+        android:drawableStart="@drawable/g"
+        android:paddingHorizontal="80dp"
+        android:text="@string/sign_in_with_gmail"
+        android:textColor="@color/login_textcolor" />
+
+
+</LinearLayout>
